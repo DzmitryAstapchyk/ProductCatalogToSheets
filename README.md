@@ -38,7 +38,7 @@ Below are screenshots demonstrating the successful migration of product data fro
 > **Note:** Sensitive commercial information in the screenshots has been obscured to maintain client confidentiality.
 
 ## 🛠️ Tech Stack
-- **Language**: C# (.NET 10)
+- **Language**: C# (.NET 10.0)
 - **Libraries**: 
   - `HtmlAgilityPack` (HTML parsing)
   - `Google.Apis.Sheets.v4` (Cloud Integration)
