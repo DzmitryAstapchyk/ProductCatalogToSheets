@@ -53,23 +53,24 @@ By using this tool, you agree that:
 
 ## ⚙️ Setup & Configuration
 1. **Google Credentials**: Place your Google Service Account JSON key in the project folder.
-2. **Configuration**: Create an `appsettings.json` file. Use the example below as a template (replace `example.com` with your authorized target).
+2. **Configuration**: Copy [appsettings.example.json](ProductCatalogToSheets/appsettings.example.json) to `appsettings.json` and fill in your details:
 
 ```json
 {
   "Proxy": {
-    "Host": "your_proxy_host",
-    "Username": "your_user",
-    "Password": "your_password"
+    "Host": "proxy.example.com:8080",
+    "Username": "your_proxy_username",
+    "Password": "your_proxy_password"
   },
   "GoogleSheets": {
-    "CredentialPath": "credentials.json",
-    "SpreadsheetId": "your_spreadsheet_id",
-    "StartRow": "2"
+    "CredentialPath": "path/to/google-credentials.json",
+    "SpreadsheetId": "your_spreadsheet_id_here",
+    "StartRow": "11"
   },
   "Scraper": {
-    "BaseUrl": "https://example.com",
-    "RequestDelayMs": 1000
+    "BaseUrl": "https://target-catalog-website.com",
+    "RequestDelayMs": 250,
+    "RetryDelayMs": 10000
   }
 }
 ```
