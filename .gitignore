@@ -1,0 +1,47 @@
+# Generated output files
+*.txt
+doorHandlesUrls*.txt
+doorHingesUrls*.txt
+hardwareUrls*.txt
+slidingSystemsUrls*.txt
+smartSystemsUrls*.txt
+
+# Configuration files with secrets
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+
+# Credentials
+*.json
+!appsettings.example.json
+google-credentials-*.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
